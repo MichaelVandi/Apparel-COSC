@@ -1,0 +1,42 @@
+{
+  "name": "rnw_boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "firebase": "^5.10.0",
+    "react": "^16.8.6",
+    "react-art": "^16.5.1",
+    "react-dom": "^16.8.6",
+    "react-images-upload": "^1.2.6",
+    "react-native": "^0.59.6",
+    "react-native-web": "^0.9.0",
+    "react-navigation": "^2.17.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-modal": "^1.4.2",
+    "react-tap-event-plugin": "^3.0.3",
+    "reactstrap": "^8.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.4.0",
+    "babel-preset-react-native": "^5",
+    "jest": "^23.4.1",
+    "react-scripts": "1.1.5",
+    "react-test-renderer": "^16.3.1"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "start-ios": "react-native run-ios",
+    "start-web": "react-scripts start",
+    "build": "react-scripts build",
+    "test-web": "react-scripts test --env=jsdom",
+    "eject-web": "react-scripts eject"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/fonts/"
+    ]
+  }
+}
